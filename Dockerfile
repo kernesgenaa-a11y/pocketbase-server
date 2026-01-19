@@ -5,7 +5,6 @@ WORKDIR /app
 COPY pocketbase /app/pocketbase
 RUN chmod +x /app/pocketbase
 
-VOLUME ["/app/pb_data"]
 
 EXPOSE 8090
 
